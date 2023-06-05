@@ -14,6 +14,8 @@ screen.setup(width=800, height=600)
 screen.title("Breakout")
 screen.tracer(0)
 
+print(BRICKS)
+
 paddle = Paddle()
 ball = Ball()
 for row in range(8):
